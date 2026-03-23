@@ -1,6 +1,10 @@
 #include <assert.h>
 #include "calculator.h"
 
+void test_plus() {
+    assert(add(1, 1) == 2);
+}
+
 void test_add() {
     assert(add(2, 3) == 5);
 }
