@@ -22,6 +22,7 @@ blocks:
         - name: Run app
           commands:
             - chmod +x app
+            - ls
             - ./app
         - name: Lint
           commands:
